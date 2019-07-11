@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img2/back.png) no-repeat top center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+} 
+
+.title {
+	width: 80%;
+	max-width: 473px;
+}
+
+.instrucciones {
+	position: relative;
+	width: 100%;
+	max-width: 664px;
+}
+
+.instruccionesTxt {
+	position: absolute;
+	width: 66%;
+	height: 62%;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tablero {
+	width: 100%;
+	max-width: 664px;
+}
+
+@font-face {
+    font-family: 'amsipro-black';
+    src: url('../fonts/amsipro-black-webfont.woff2') format('woff2'),
+         url('../fonts/amsipro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amsipro-semibold';
+    src: url('../fonts/amsipro-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/amsipro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.felicidadesContainer {
+	position: absolute;
+	width: 60%;
+	height: 62%;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #7f501c;
+}
+.felicidadesTitle {
+	color: #7f501c;
+	font-size: 2rem;
+	font-family: amsipro-black;
+	margin-bottom: 40px;
+}
+
+.txtFelicitaciones {
+	color: #7f501c;
+	font-size: 1rem;
+	font-family: amsipro-semibold;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 580px) {
+	.felicidadesTitle {
+		font-size: 1.5rem;
+		margin-bottom: 30px;
+	}
+
+	.txtFelicitaciones {
+		font-size: 0.8rem;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 465px) {
+	.felicidadesTitle {
+		font-size: 1.2rem;
+		margin-bottom: 20px;
+	}
+
+	.txtFelicitaciones {
+		font-size: 0.8rem;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+	.felicidadesContainer {
+		width: 65%;
+		height: 68%;
+	}
+	.felicidadesTitle {
+		font-size: 1.2rem;
+		margin-bottom: 10px;
+	}
+
+	.txtFelicitaciones {
+		font-size: 0.7rem;
+		margin-bottom: 10px;
+	}
+}
